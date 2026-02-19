@@ -2,7 +2,7 @@
 
 
 let arr = [1,2,2,3,4,8,4,5]
-
+//t.c=o(n),s.c=o(1)
 function maxElem(arr) {
     let max = 0;
 

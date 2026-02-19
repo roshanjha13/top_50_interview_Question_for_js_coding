@@ -1,7 +1,9 @@
 let arr = [1,2,2,3,1,4];
 
+//t.c = o(n),s.c= o(n)
 
 function freqCounter(arr) {
+    if(arr.length == 0) return false
     let freq = new Map();
 
     for (let i = 0; i < arr.length; i++) {
